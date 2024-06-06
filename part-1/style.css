@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background-color: #1a1244; ;
     padding: 10px 200px;
+    border-bottom: 4px solid #4c3aa5;
 }
 ul{
     display: flex;
@@ -35,4 +36,38 @@ nav div{
     color: white;
     font-size: 20px;
 }
+.search-box-1{
+    display: flex;
+    justify-content: center;
+    
+}
+header {
+    background-image: url(image/theNew.jpg);
+    padding:200px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.search-box-1 i {
+    color: red;
+    background-color: black;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+
+}
+.search-box-1 input {
+    width:500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+   
+}
