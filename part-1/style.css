@@ -170,3 +170,50 @@ main{
     background-color: #04aa6d;
     color: white;
 }
+footer{
+    background-color: #5f1e69;
+    color: white;
+}
+.div-containar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    width: 900px;
+    padding: 50px 0;
+    margin: 0 auto ;
+}
+.div-containar h3{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.div-containar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    display: inline-block;
+}
+.thard-section a{
+ color: black;
+ font-size: 25px;
+ margin: 0 10px 30px 0; 
+ background-color: rgb(65, 18, 18);
+ padding: 5px;
+ border-radius: 10px;
+ display: inline-block;
+}
+.first-div p{
+    margin: 20px 0;
+}
+.secend-div{
+    margin-left: 50px;
+}
+
+.thard-section p{
+    margin-bottom:10px ;
+}
+.thard-section p:nth-child(3){
+    margin-top: 20px;
+}
+.thard-section p:first-child{
+    margin-top: 20px;
+}
